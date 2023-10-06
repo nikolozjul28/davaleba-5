@@ -2,3 +2,16 @@
     width: 1440px;
     margin: 0 auto;
 }
+
+.mainmenu {
+    height:122px;
+    background-color: #2A9D8F;
+}
+
+.mainmenu {
+    list-style: none;
+}
+
+.mainmenu ul li {
+    text-decoration: none;
+}
