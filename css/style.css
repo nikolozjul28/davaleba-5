@@ -1,19 +1,37 @@
-.mainpage {
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main_page {
     width: 1440px;
     margin: 0 auto;
+    background-color: white;
 }
 
-.main_menu {
-    height:122px;
+.main_nav {
     background-color: #2A9D8F;
+    display: inline-block;
+    vertical-align: middle;
 }
 
-.main_menu ul {
+.logo {
+    vertical-align: middle;
+    background-color: white;
+    display: block;
+}
+
+ul {
     list-style: none;
 }
 
-.main_menu ul li {
+a {
     text-decoration: none;
-    display: inline-block;
 }
 
+.header_nav_li {
+    display: inline-block;
+    vertical-align: middle;
+}
