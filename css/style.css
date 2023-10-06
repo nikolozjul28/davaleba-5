@@ -5,6 +5,8 @@
     box-sizing: border-box;
 }
 
+/* comment here */
+
 .main_header {
     width: 1440px;
     margin: auto;
@@ -17,12 +19,45 @@
 
 .logo {
     background-color: white;
+    padding: 10px 13px 10px 13px;
+    border-radius: 50%;
+    margin: 48px 370px 48px 130px;
+    vertical-align: middle;
 }
 
-ul {
+.header_nav_ul {
     list-style: none;
 }
 
-a {
+.header_nav_li {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.middle_li {
+    margin-inline: 51px;
+}
+
+.active, .no_active {
     text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Nerko One', cursive;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.header_button {
+    width: 147px;
+    height: 46px;
+    font-family: 'Poppins', sans-serif;
+    color: #2A9D8F;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0.10px;
+    word-wrap: break-word;
+    margin-left:357px;
+    background-color: white;
+    vertical-align: middle;
 }
