@@ -5,22 +5,18 @@
     box-sizing: border-box;
 }
 
-.main_page {
+.main_header {
     width: 1440px;
-    margin: 0 auto;
-    background-color: white;
+    margin: auto;
+    background-color: #2A9D8F;
 }
 
 .main_nav {
-    background-color: #2A9D8F;
     display: inline-block;
-    vertical-align: middle;
 }
 
 .logo {
-    vertical-align: middle;
     background-color: white;
-    display: block;
 }
 
 ul {
@@ -29,9 +25,4 @@ ul {
 
 a {
     text-decoration: none;
-}
-
-.header_nav_li {
-    display: inline-block;
-    vertical-align: middle;
 }
