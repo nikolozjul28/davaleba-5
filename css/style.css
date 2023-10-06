@@ -65,6 +65,7 @@
     margin-left: 357px;
     background-color: white;
     vertical-align: middle;
+    cursor: pointer;
 }
 
 .main_article {
@@ -114,6 +115,12 @@ h1 {
     margin-right: 123px;
 }
 
+.section1_div {
+    display: inline-block;
+    width: 457px;
+    vertical-align: top;
+}
+
 h2 {
     color: #272727;
     font-size: 32px;
@@ -122,9 +129,9 @@ h2 {
     line-height: 48px;
     letter-spacing: 0.16px;
     word-wrap: break-word;
-    display: inline-block;
     vertical-align: top;
     width: 457px;
+    margin-bottom:27px;
 }
 
 .section1_p {
@@ -137,7 +144,7 @@ h2 {
     letter-spacing: 0.09px;
     word-wrap: break-word;
     width: 457px;
-    display: inline-block;
+    margin-bottom:45px;
 }
 
 .section1_button {
@@ -147,7 +154,8 @@ h2 {
     font-weight: 400;
     line-height: 24px;
     word-wrap: break-word;
-    width: 81px;
-    height: 24px;
+    width: 113px;
+    height: 46px;
     background-color: #2A9D8F;
+    cursor: pointer;
 }
